@@ -15,6 +15,6 @@ if(n==r1)
 printf("It is palindrome:");
 else
 printf("It is not palindrome:");
-}
 return 0;
+}
 }
