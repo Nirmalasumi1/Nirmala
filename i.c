@@ -11,4 +11,5 @@ n=n/10;
 count++;
 }
 printf("Number of the digits:%d",count);
+return 0;  
 }
