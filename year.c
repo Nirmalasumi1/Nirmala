@@ -6,10 +6,20 @@ printf("enter the year:");
 scanf("%d",&n);
 if(n%4==0)
 {
-printf("the year is leap:");
-}
+   if(n%100==0)
+   {
+      if(n%400==0)
+      {
+        printf("the year is leap:");
+      else
+        printf("the year is not leap:");
+      }
+     else
+       printf("the year is leap:");
+   }
 else
 {
 printf("the year is not leap:");
+}
 }
 }
