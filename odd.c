@@ -8,7 +8,8 @@ for(i=m;i<=n;i++)
 {
 if(i%2==1)
 {
-printf("The odd numbers are:");
+printf("%d",i);
 }
 }
+  return 0;
 }
