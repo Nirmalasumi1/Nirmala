@@ -1,5 +1,5 @@
-#include<stdio.h
-void main()
+#include<stdio.h>
+int main()
 {
 int num,r,result=0;
 printf("Enter the number:");
@@ -16,4 +16,5 @@ printf("It is an armstrong number:");
 else
 printf("It is not an armstrong number:");
 }
+  return 0;
 }
