@@ -9,7 +9,7 @@ scanf("%d",&exponent);
 while(exponent!=0)
 {
 result=pow(base,exponent);
-printf("%d",result);
+printf("%d^%d=%d",result);
 }
 return 0;
 }
