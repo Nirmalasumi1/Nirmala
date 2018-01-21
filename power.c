@@ -6,9 +6,9 @@ printf("enter the base:");
 scanf("%d",&base);
 printf("enter the exponent:");
 scanf("%d",&exponent);
-while(base!=0)
+while(exponent!=0)
 {
-result=power(base,exponent);
+result=pow(base,exponent);
 printf("%d",result);
 }
 return 0;
