@@ -13,7 +13,9 @@ i=i/10;
 if(result==i)
 {
 printf("It is an armstrong number:");
+}
 else
+{
 printf("It is not an armstrong number:");
 }
 return 0;
