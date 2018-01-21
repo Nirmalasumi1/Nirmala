@@ -8,7 +8,7 @@ for(i=m;i<=n;i++)
 {
 r=i%10;
 result=result+(r*r*r);
-i=i/10;}
+i=i/10;
 }
 if(result==i)
 {
