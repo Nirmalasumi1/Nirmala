@@ -1,17 +1,18 @@
 #include<stdio.h>
 int main()
 {
-int n,sum=o,numbers,i;
+int n,i,sum=o,numbers;
 float average;
-printf("Enter how many numbers:");
+printf("Enter how many numbers you want:");
 scanf("%d",&n);
+  printf("enter the elements one by one:");
 for(i=0;i<n;i++)
 {
 scanf("%d",&numbers);
 sum=sum+numbers;
 }
 average=sum/n;
-printf("%d",The sum is:);
-printf("%f",The average is:);
+printf("\n sum of %d numbers=%d",n,sum);
+printf("average of %d numbers=%2f",n,average);
 return 0;
 }
