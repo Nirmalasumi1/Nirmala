@@ -3,13 +3,14 @@ int main()
 {
 int N,A,D,i,sum=0;
 printf("Enter the N,A and D:");
-scanf("%d%d%d",&N,&A,&D);
+scanf("%d %d %d",&N,&A,&D);
+val=A;
 for(i=0;i<N;i++)
 {
-printf("%d",&A);
-sum=sum+A;
-A=A+D;
+printf("%d",&val);
+sum=sum+val;
+val=val+D;
 }
-printf("%d The sum of the series:");
+printf("\nThe sum of the seriesis %d",sum);
 return 0;
 }
