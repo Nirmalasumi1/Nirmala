@@ -11,6 +11,6 @@ printf("%d",&val);
 sum=sum+val;
 val=val+D;
 }
-printf("\nThe sum of the seriesis %d",sum);
+printf("\nThe sum of the series is %d",sum);
 return 0;
 }
