@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-int N,A,D,i,sum=0;
+int N,A,D,i,sum=0,val;
 printf("Enter the N,A and D:");
 scanf("%d %d %d",&N,&A,&D);
 val=A;
