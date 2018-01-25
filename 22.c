@@ -13,7 +13,8 @@ for(i=1;i<n;i++)
 if(max<a[i])
 {
  max=a[i];
-printf("The max element is %d",max);
 }
-}return 0;
+}
+printf("The max element is %d",max);
+return 0;
 }
