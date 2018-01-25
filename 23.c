@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-int n,a[25],min;
+int n,a[25],i,min;
 printf("Enter how many elements:");
 scanf("%d",&n);
 printf("Enter the elements:");
