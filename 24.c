@@ -1,18 +1,18 @@
 #include<stdio.h>
 int main()
 {
-int a[size],size;
+int a[100],n;
 int i,j,temp;
-printf("Enter the size of an array:");
-scanf("%d",&size);
+printf("Enter how many elements in an array:");
+scanf("%d",&n);
 printf("Enter the elements in an array:");
-for(i=0;i<size;i++)
+for(i=0;i<n;i++)
 {
-printf("%d",&a[i]);
+scanf("%d",&a[i]);
 }
-for(i=0;i<size;i++)
+for(i=0;i<n;i++)
 {
-for(j=i+1;j<size;j++)
+for(j=i+1;j<n;j++)
 {
 if(a[i]>a[j])
 {
@@ -23,5 +23,9 @@ a[j]=temp;
 }
 }
 printf("\n Elements of array in ascending order:");
+for(i=0;i<n;i++)
+{
+  printf("%d\t",a[i]);
+}
 return 0;
 }
