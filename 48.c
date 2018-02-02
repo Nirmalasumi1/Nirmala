@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-int n,a[i],sum=0,avg;
-printf("Enter the value of n:");
+int n,sum=0,avg,numbers;
+printf("Enter how many numbers you want:");
 scanf("%d",&n);
-printf("The numbers are:");
-scanf("%d",&a[i]);
+printf("Enter the numbers:");
+  scanf("%d",&numbers);
 for(i=0;i<n;i++)
 {
-sum=sum+a[i];
+sum=sum+numbers;
 }
 avg=sum/n;
 printf("The average is:%d",avg);
