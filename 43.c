@@ -2,7 +2,7 @@
 int main()
 {
 char str1[100],str2[100];
-int i.j;
+int i,j;
 printf("Enter the string1:");
 scanf("%s",&str1);
 printf("Enter the string2:");
