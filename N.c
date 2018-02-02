@@ -13,7 +13,7 @@ for(i=1;i<=n;i++)
   scanf("%d",&k);
   for(i=0;i<=k;i++)
   {
-    sum=sum+i;
+    sum=sum+a[i];
   }
 printf("%d",sum);
 return 0;
