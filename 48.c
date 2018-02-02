@@ -1,11 +1,12 @@
 #include<stdio.h>
 int main()
 {
-int n,sum=0,avg,numbers;
+int n,sum=0,numbers;
+float avg;
 printf("Enter how many numbers you want:");
 scanf("%d",&n);
 printf("Enter the numbers:");
-  scanf("%d",&numbers);
+scanf("%d",&numbers);
 for(i=0;i<n;i++)
 {
 sum=sum+numbers;
