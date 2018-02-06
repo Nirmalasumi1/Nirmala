@@ -2,9 +2,9 @@
 int main()
 {
 char n;
-printf("Enter the string:");
+printf("Enter the character:");
 scanf("%d",&n);
-if(n.isdigit)
+if(n>='0'&& n<='9')
 {
 printf("yes");
 }
