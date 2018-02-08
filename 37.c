@@ -8,6 +8,6 @@ printf("Before swapping a=%d b=%d",a,b);
 temp=a;
 a=b;
 b=temp;
-printf("After swapping %d %d",a,b);
+printf("\n After swapping %d %d",a,b);
 return 0;
 }
