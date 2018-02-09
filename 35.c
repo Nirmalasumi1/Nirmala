@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main()
 {
-char s[100],i,count=0;
+char s[100],i,count;
 printf("Enter the string:");
-scanf("%s",&s);
+scanf("%[^\n]s",&s);
 for(i=0;s[i]!='\0',i++)
 {
-if(s>='0'&& s<='9')
+if(s[i]>='0'&& s[i]<='9')
 {
 count++;
 }
 }
-printf("%d",count+1);
+printf("%d",count);
 return 0;
 }
