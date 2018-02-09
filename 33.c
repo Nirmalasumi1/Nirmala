@@ -13,6 +13,6 @@ if(s[i]==' ')
 count++;
 }
 }
-printf("%d",count);
+printf("The number of spaces is %d",count);
 return 0;
 }
