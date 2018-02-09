@@ -9,7 +9,7 @@ printf("Enter the k value:");
 scanf("%d",&k);  
 for(i=1;i<=k;i++)
 {
-printf("%s",s);
+printf("\n %s",s);
 }
 return 0;
 }
