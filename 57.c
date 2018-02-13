@@ -7,7 +7,7 @@ scanf("%d%d",&m,&n);
 printf("Before swapping m=%d n=%d",m,n);
 temp=m;
 m=n;
-temp=n;
+n=temp;
 printf("After swapping m=%d n=%d",m,n);
 return 0;
 }
