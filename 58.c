@@ -8,6 +8,6 @@ printf("Before swapping m=%d n=%d",m,n);
 m=m^n;
 n=m^n;
 m=m^n;
-printf("After swapping m=%d n=%d",m,n);
+printf("\n After swapping m=%d n=%d",m,n);
 return 0;
 }
