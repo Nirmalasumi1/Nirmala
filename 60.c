@@ -16,7 +16,7 @@ z=x+y;
 x=y;
 y=z;
  }
+printf("%d\n",z);
 }
-printf("The fibonacci series is %d\n",z);
 return 0;
 }
