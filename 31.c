@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-char[50],s,i;
+char a[50],i;
 int count=0;
 printf("Enter the string:");
-scanf("%s",&s);
-for(i=0;i<s;i++)
+scanf("%[^\n]s",&a);
+for(i=0;a[i]!='\0';i++)
 {
 count++;
 }
-printf("%d",count);
+printf("%d",count+1);
 return 0;
 }
