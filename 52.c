@@ -42,6 +42,7 @@ printf("Eight");
 break;
 case9:
 printf("Nine");
+break;
 }
 num=num/10;
 }
