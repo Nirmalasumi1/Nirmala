@@ -14,8 +14,10 @@ n1++;
 if(n1==2)
 {
 printf("It is prime");
-else
-printf("It is not prime");
-return 0;
 }
+else
+{
+printf("It is not prime");
+}
+return 0;
 }
