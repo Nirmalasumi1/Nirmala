@@ -10,7 +10,7 @@ printf("Enter the string:");
 scanf("%s",&s);
 for(i=0;i<n;i++)
 {
-printf("%s",i);
+printf("%c",i);
 }
 return 0;
 }
