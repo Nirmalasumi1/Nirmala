@@ -3,12 +3,14 @@
 int main()
 {
 char s[50];
-int i;
+int i,n;
+printf("Enter the number:");
+scanf("%d",&n);  
 printf("Enter the string:");
 scanf("%s",&s);
-for(i=0;s[i]!='\0';i++)
+for(i=0;i<n;i++)
 {
-printf("%s",i+2);
+printf("%s",i);
 }
 return 0;
 }
