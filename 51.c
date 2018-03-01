@@ -13,8 +13,8 @@ n=n/10;
 while(r!=0)
 {
 a=r%10;
+printf("%d\t",a);
 r=r/10;
 }
-printf("%d",a);  
 return 0;
 }
