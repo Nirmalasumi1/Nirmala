@@ -9,7 +9,7 @@ while(n>0)
 m=n%10;
 if(m%2!=0)
 {
-printf("%d",m);
+printf("%d\t",m);
 }
 n=n/10;
 }
