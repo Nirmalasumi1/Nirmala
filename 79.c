@@ -1,16 +1,17 @@
 #include<stdio.h>
 int main()
 {
-int a,b;
+int a,b,m,i;
 printf("Enter the two numbers:");
 scanf("%d%d",&a,&b);
-if(a==b)
+m=a*b;
+for(i=1;i<m;i++)
 {
-printf("It is perfect square");
+  if(m==i*i)
+  {
+    printf("yes");
+    break;
+  }
 }
-else
-{
-printf("It is not perfect square");
-}
-return 0;
+  return 0;
 }
