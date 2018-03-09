@@ -9,7 +9,7 @@ scanf("%s",&str);
 len=strlen(s);
 for(i=0;i<len;i++)
 {
-if(str[i]==str[len-i-1])
+if(str[i]!=str[len-i-1])
 {
 flag=1;
 break;
@@ -17,11 +17,11 @@ break;
 }
 if(flag==1)
 {
-printf("It is palindrome");
+printf("It is not palindrome");
 }
 else
 {
-printf("It is not palindrome");
+printf("It is palindrome");
 }
 return 0;
 }
