@@ -1,9 +1,17 @@
 #include<stdio.h>
 int main()
 {
-int n;
-printf("Enter the number:");
-scanf("%d",&n);
-printf("%d",n*2);
+int num,c=0,n=1,p=2,i;
+scanf("%d",&num);
+while(num!=1)
+{
+num=num/2;
+c++;
+}
+for(i=0;i<c+1;i++)
+{
+n=n*p;
+}
+printf("The nearest greater power of 2 is:%d",x);
 return 0;
 }
