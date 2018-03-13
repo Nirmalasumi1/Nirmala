@@ -7,7 +7,7 @@ scanf("%d",&n);
 switch(n)
 {
 case 0:
-printf("zero");
+printf("Ten");
 break;
 case 1:
 printf("one");
