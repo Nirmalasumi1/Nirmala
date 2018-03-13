@@ -6,38 +6,38 @@ printf("Enter the number:");
 scanf("%d",&n);
 switch(n)
 {
-case0:
+case 0:
 printf("zero");
 break;
-case1:
+case 1:
 printf("one");
 break;
-case2:
+case 2:
 printf("Two");
 break;
-case3:
+case 3:
 printf("Three");
 break;
-case4:
+case 4:
 printf("Four");
 break;
-case5:
+case 5:
 printf("Five");
 break;
-case6:
+case 6:
 printf("Six");
 break;
-case7:
+case 7:
 printf("Seven");
 break;
-case8:
+case 8:
 printf("Eight");
 break;
-case9:
+case 9:
 printf("Nine");
 break;
 default:
-    printf("Enter the number:");
+    printf("none");
 }
 return 0;
 }
