@@ -6,7 +6,7 @@ char str[100];
 int len,i,flag=0;
 printf("Enter the string:");
 scanf("%s",&str);
-len=strlen(s);
+len=strlen(str);
 for(i=0;i<len;i++)
 {
 if(str[i]!=str[len-i-1])
