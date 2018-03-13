@@ -1,17 +1,10 @@
 #include<stdio.h>
 int main()
 {
-int n,num=0;
+int n;
 printf("Enter the number:");
 scanf("%d",&n);
-while(n!=0)
-{
-num=(num*10)+(n%10);
-n=n/10;
-}
-while(num!=0)
-{
-switch(num%10)
+switch(n)
 {
 case0:
 printf("zero");
@@ -43,8 +36,8 @@ break;
 case9:
 printf("Nine");
 break;
-}
-num=num/10;
+default:
+    printf("Enter the number:");
 }
 return 0;
 }
