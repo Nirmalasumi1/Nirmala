@@ -1,14 +1,19 @@
 #include<stdio.h>
+#include<string.h>
 int main()
 {
-char a[50],i;
-int count=0;
-printf("Enter the string:");
-scanf("%[^\n]s",&a);
-for(i=0;a[i]!='\0';i++)
-{
-count++;
-}
-printf("%d",count+1);
-return 0;
+  char str[100];
+  int l,i,count=0;
+  printf("enter the string:");
+  gets(str);
+  l=strlen(str);
+  for(i=0;i<l;i++)
+  {
+    if(str[i]!=' ')
+    {
+      count++;
+    }
+  }
+  printf("%d",count);
+  return 0;
 }
